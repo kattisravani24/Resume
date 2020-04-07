@@ -1,0 +1,58 @@
+body{	
+	text-align: justify;
+}
+#identity{
+	padding: 20px 0px 20px 20px;
+}
+#selfiee{
+	width: 75%;
+	border: solid 1px grey;
+	border-radius: 5%;
+	height: 300px;	
+}
+#identity a{
+	text-decoration:none;
+	color: #000;
+}
+.tab li{
+	list-style-type: none;
+	cursor: pointer;
+	padding: 10px 0;
+}
+.tabcontent{
+	background-color: #eee;
+	box-shadow: 3px 3px 3px 3px #888888;
+}
+/*Images Width and height Control*/
+.tabcontent img{
+	width: 100%;
+}
+#intern img{
+	height: 100%;
+}#edu-qua img{
+	height: 100%;
+}
+.table-bordered td, .table-bordered th{
+	border: 1px solid #000;
+}
+
+/*border control of the sections*/
+#career-obj, #edu-qua, #sw-pro, #pro-exp, #intern, #ace-pro, #pro-syno, #strengths, #personal, #co-act{
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#sw-pro i, #pro-exp i, #co-act i{
+	padding-right: 10px;
+}
+
+#pro-syno table tr td, #pro-syno table tr th{
+	padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+	#identity h6{
+		text-align: center;
+	}
+}
